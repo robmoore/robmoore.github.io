@@ -44,10 +44,8 @@ If you eschew the use of 32-bit binaries and a single apt-get call seems too muc
 
 At any rate, I found that Scheme led to [Racket](http://en.wikipedia.org/wiki/Racket_(programming_language)) which is a descendant of Scheme. [DrRacket](http://docs.racket-lang.org/drracket/) is an IDE designed to implement programs in Racket. I found that it's possible to use DrRacket in a special mode that supports MIT Scheme and a [post](http://www.neilvandyke.org/racket-sicp/) that describes using DrRacket for the very purpose of working through SICP. This was all good and well but DrRacket has an UI component that I find distracting. Fortunately, I came across an excellent [post](http://crash.net.nz/posts/2014/08/configuring-vim-for-sicp/) which details how to run DrRacket in a mode that allows for REPL-like functionality in a terminal while also supporting the MIT Scheme mode. 
 
-```
-$ racket -i -p neil/sicp -l xrepl
-Welcome to Racket v5.3.6.
--> 
-```
+    $ racket -i -p neil/sicp -l xrepl
+    Welcome to Racket v5.3.6.
+    -> 
 
 As the author of the last-referenced post mentions, there are a number of other alternatives that could be used aside from the two I've discussed here. He clearly prefers the DrRacket REPL and looks askance on the MIT Scheme REPL. Despite his dislike for it, I'm inclined to start with it and see how far it takes me.
