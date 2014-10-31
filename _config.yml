@@ -65,6 +65,7 @@ sass:
 gems:
   - jemoji # Emoji please!
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll_github_sample # Allow code snippets from Github repo
 
 # Exclude these files from your production _site
 exclude:
